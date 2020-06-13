@@ -1,0 +1,18 @@
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+.logo
+{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(../assets/images/background.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
