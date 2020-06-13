@@ -16,3 +16,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.four-steps i {
+    font-size: 30px;
+}
+
+.four-steps h3 {
+    font: 20px 'Mukta', sans-serif;;
+}
