@@ -10,7 +10,7 @@
 }
 
 .main {
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url(../assets/images/background.webp);
     background-position: center center;
     background-repeat: no-repeat;
@@ -24,4 +24,8 @@
 
 .four-steps h3 {
     font: 20px 'Mukta', sans-serif;;
+}
+
+.hiw {
+    width: 140px;
 }
