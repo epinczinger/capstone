@@ -1,5 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.navbar {
+  background-color: rgba(238, 30, 58, 0.904);
+}
+
 .logo {
-  font-family: "MuseoModerno", cursive;
+  font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
   font-size: 20px;
 }
 
@@ -15,30 +27,72 @@
   background-color: rgba(160, 160, 160, 0.7);
 }
 .search-page .form p {
-  font: 700 large "Mukta", sans-serif;
-  color: #244069;
+  font: 700 large "Mukta", sans-serif, Helvetica;
+  color: #222222;
 }
 .search-page h1 {
   font-weight: bold;
-  text-shadow: -3px -1px 5px #83a0b3;
+  text-shadow: -3px -1px 5px rgba(160, 78, 78, 0.637);
 }
 .search-page span {
-  font-family: "MuseoModerno", cursive;
+  font: 700 "MuseoModerno", cursive, sans-serif, Helvetica;
 }
 .search-page p {
-  font: "Mukta", sans-serif;
+  font: "Mukta", sans-serif, Helvetica;
   color: black;
 }
 .search-page .btn {
   width: auto;
-  background-color: #244069;
+  background-color: rgba(238, 30, 58, 0.904);
 }
 
 .four-steps i {
   font-size: 30px;
 }
+.four-steps h2 {
+  font: large 700;
+  color: rgba(238, 30, 58, 0.904);
+}
+.four-steps h2 span {
+  font: "MuseoModerno", cursive, sans-serif, Helvetica;
+}
 .four-steps h3 {
-  font: 20px "Mukta", sans-serif;
+  font: 700 large "Mukta", sans-serif, Helvetica;
+  color: rgba(238, 30, 58, 0.904);
+}
+
+.adds img {
+  border-radius: 50%;
+}
+.adds p {
+  font: large "Mukta", sans-serif, Helvetica;
+  color: #3a3939;
+}
+.adds .btn {
+  background-color: #c23f90;
+}
+
+.add1 {
+  background-color: #d3774c;
+}
+
+.add2 {
+  background-color: gray;
+}
+
+.add3 {
+  background-color: #567ed6;
+}
+
+.footer {
+  background-color: black;
+}
+.footer .btn {
+  background-color: #4d4949;
+  color: white;
+}
+.footer .footer-bottom {
+  background-color: #4d4949;
 }
 
 /*# sourceMappingURL=style.css.map */

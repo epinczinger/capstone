@@ -1,13 +1,26 @@
 // font-family: 'Mukta', sans-serif;
 // font-family: 'MuseoModerno', cursive;
 
-$opporunity-font: 'MuseoModerno', cursive;
-$main-font: 'Mukta', sans-serif;
-$main-color: rgb(36, 64, 105);
+$opportunity-font: 'MuseoModerno', cursive, sans-serif, Helvetica ;
+$main-font: 'Mukta', sans-serif, Helvetica;
+$main-color: rgba(238, 30, 58, 0.904);
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+.navbar {
+    background-color: $main-color;
+}
 
 .logo
 {
-    font-family: $opporunity-font;
+    font-family: $opportunity-font;
     font-size: 20px;
 }
 
@@ -22,21 +35,20 @@ $main-color: rgb(36, 64, 105);
     .form {
         border-radius: 20px;
         background-color: rgba(160, 160, 160, 0.7);
-        // opacity: 0.55;
         
         p {
             font: 700 large $main-font;
-            color : $main-color;
+            color : rgb(34, 34, 34);
         }
     }
 
     h1 {
         font-weight: bold;
-        text-shadow: -3px -1px 5px rgb(131, 160, 179);
+        text-shadow: -3px -1px 5px rgba(160, 78, 78, 0.637);
     }
 
     span {
-        font-family: $opporunity-font;
+        font: 700 $opportunity-font;
     }
 
 
@@ -55,7 +67,65 @@ $main-color: rgb(36, 64, 105);
     i {
         font-size: 30px;
     }
+    h2{
+        font: large 700;
+        color: $main-color;
+        span {
+            font: $opportunity-font;
+        }
+
+    }
+
     h3 {
-        font: 20px $main-font;
+        font: 700 large $main-font;
+        color: $main-color;
+    }
+    
+}
+
+.adds {
+
+    img {
+    
+        border-radius: 50%;
+    
+    }
+
+    p {
+        font: large $main-font;
+        color: rgb(58, 57, 57);
+    }
+    
+    .btn {
+        background-color: rgb(194, 63, 144);
+    }
+}
+
+.add1 {
+    background-color:rgb(211, 119, 76);
+    
+}
+
+.add2 {
+    background-color: gray;
+}
+
+.add3 {
+    background-color: rgb(86, 126, 214);
+}
+
+
+.footer {
+    background-color: black;
+   
+   
+
+    .btn {
+        background-color: rgb(77, 73, 73);
+ color: white;
+    }
+
+    .footer-bottom {
+        background-color: rgb(77, 73, 73);
     }
 }
