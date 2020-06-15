@@ -7,7 +7,7 @@ html {
 }
 
 .navbar {
-  background-color: rgba(238, 30, 58, 0.904);
+  background-color: #E44235;
 }
 
 .logo {
@@ -17,6 +17,7 @@ html {
 
 .search-page {
   background-image: url(../assets/images/background.webp);
+  opacity: 0.9;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +33,7 @@ html {
 }
 .search-page h1 {
   font-weight: bold;
-  text-shadow: -3px -1px 5px rgba(160, 78, 78, 0.637);
+  text-shadow: -3px -1px 5px rgba(136, 61, 61, 0.937);
 }
 .search-page span {
   font: 700 "MuseoModerno", cursive, sans-serif, Helvetica;
@@ -43,7 +44,7 @@ html {
 }
 .search-page .btn {
   width: auto;
-  background-color: rgba(238, 30, 58, 0.904);
+  background-color: #E44235;
 }
 
 .four-steps i {
@@ -51,14 +52,14 @@ html {
 }
 .four-steps h2 {
   font: large 700;
-  color: rgba(238, 30, 58, 0.904);
+  color: #E44235;
 }
 .four-steps h2 span {
   font: "MuseoModerno", cursive, sans-serif, Helvetica;
 }
 .four-steps h3 {
   font: 700 large "Mukta", sans-serif, Helvetica;
-  color: rgba(238, 30, 58, 0.904);
+  color: #E44235;
 }
 
 .adds img {
@@ -87,12 +88,27 @@ html {
 .footer {
   background-color: black;
 }
+.footer .footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .footer-top a {
+  padding: 6px;
+  text-decoration: none;
+}
 .footer .btn {
   background-color: #4d4949;
   color: white;
 }
 .footer .footer-bottom {
   background-color: #4d4949;
+}
+
+.main-form {
+  max-width: 700px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

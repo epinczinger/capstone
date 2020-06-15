@@ -3,7 +3,7 @@
 
 $opportunity-font: 'MuseoModerno', cursive, sans-serif, Helvetica ;
 $main-font: 'Mukta', sans-serif, Helvetica;
-$main-color: rgba(238, 30, 58, 0.904);
+$main-color: #E44235;
 
 html {
     box-sizing: border-box;
@@ -27,6 +27,7 @@ html {
 
 .search-page {
     background-image: url(../assets/images/background.webp);
+    opacity: 0.9;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +45,7 @@ html {
 
     h1 {
         font-weight: bold;
-        text-shadow: -3px -1px 5px rgba(160, 78, 78, 0.637);
+        text-shadow: -3px -1px 5px rgba(136, 61, 61, 0.937);
     }
 
     span {
@@ -118,6 +119,16 @@ html {
 .footer {
     background-color: black;
    
+    .footer-top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        a {
+            padding: 6px;
+            text-decoration: none;
+        }
+    }
    
 
     .btn {
@@ -127,5 +138,12 @@ html {
 
     .footer-bottom {
         background-color: rgb(77, 73, 73);
+      
     }
+}
+
+
+.main-form {
+    max-width: 700px;
+    border-radius: 10px;
 }
