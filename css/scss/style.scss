@@ -2,9 +2,60 @@
 // font-family: 'MuseoModerno', cursive;
 
 $opporunity-font: 'MuseoModerno', cursive;
+$main-font: 'Mukta', sans-serif;
+$main-color: rgb(36, 64, 105);
 
 .logo
 {
     font-family: $opporunity-font;
-    font-size: 60px;
+    font-size: 20px;
+}
+
+
+.search-page {
+    background-image: url(../assets/images/background.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+
+    .form {
+        border-radius: 20px;
+        background-color: rgba(160, 160, 160, 0.7);
+        // opacity: 0.55;
+        
+        p {
+            font: 700 large $main-font;
+            color : $main-color;
+        }
+    }
+
+    h1 {
+        font-weight: bold;
+        text-shadow: -3px -1px 5px rgb(131, 160, 179);
+    }
+
+    span {
+        font-family: $opporunity-font;
+    }
+
+
+    p {
+        font: $main-font;
+        color: black;
+    }
+
+    .btn {
+    width: auto;
+    background-color: $main-color;
+    }
+}
+
+.four-steps {
+    i {
+        font-size: 30px;
+    }
+    h3 {
+        font: 20px $main-font;
+    }
 }

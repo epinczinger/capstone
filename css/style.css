@@ -1,31 +1,44 @@
-
-
-/*# sourceMappingURL=style.css.map */
-
-
-.logo
-{
-    font-family: 'MuseoModerno', cursive;
-    font-size: 20px;
+.logo {
+  font-family: "MuseoModerno", cursive;
+  font-size: 20px;
 }
 
-.main {
-    /* height: 100vh; */
-    background-image: url(../assets/images/background.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.search-page {
+  background-image: url(../assets/images/background.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
 }
-
+.search-page .form {
+  border-radius: 20px;
+  background-color: rgba(160, 160, 160, 0.7);
+}
+.search-page .form p {
+  font: 700 large "Mukta", sans-serif;
+  color: #244069;
+}
+.search-page h1 {
+  font-weight: bold;
+  text-shadow: -3px -1px 5px #83a0b3;
+}
+.search-page span {
+  font-family: "MuseoModerno", cursive;
+}
+.search-page p {
+  font: "Mukta", sans-serif;
+  color: black;
+}
+.search-page .btn {
+  width: auto;
+  background-color: #244069;
+}
 
 .four-steps i {
-    font-size: 30px;
+  font-size: 30px;
 }
-
 .four-steps h3 {
-    font: 20px 'Mukta', sans-serif;;
+  font: 20px "Mukta", sans-serif;
 }
 
-.hiw {
-    width: 140px;
-}
+/*# sourceMappingURL=style.css.map */
