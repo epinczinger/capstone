@@ -2,8 +2,17 @@ html {
   box-sizing: border-box;
 }
 
+p, h2 {
+  font-family: "Mukta", sans-serif, Helvetica;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -28,7 +37,7 @@ html {
   background-color: rgba(160, 160, 160, 0.7);
 }
 .search-page .form p {
-  font: 700 large "Mukta", sans-serif, Helvetica;
+  font: 700 large;
   color: #222222;
 }
 .search-page h1 {
@@ -39,7 +48,6 @@ html {
   font: 700 "MuseoModerno", cursive, sans-serif, Helvetica;
 }
 .search-page p {
-  font: "Mukta", sans-serif, Helvetica;
   color: black;
 }
 .search-page .btn {
@@ -58,31 +66,35 @@ html {
   font: "MuseoModerno", cursive, sans-serif, Helvetica;
 }
 .four-steps h3 {
-  font: 700 large "Mukta", sans-serif, Helvetica;
+  font: 700 large;
   color: #E44235;
 }
 
 .adds img {
   border-radius: 50%;
 }
+.adds h2 {
+  color: white;
+}
 .adds p {
-  font: large "Mukta", sans-serif, Helvetica;
-  color: #3a3939;
+  font: large;
+  color: WHITE;
 }
 .adds .btn {
-  background-color: #c23f90;
+  background-color: #4d4949;
+  border: none;
 }
 
 .add1 {
-  background-color: #d3774c;
+  background-color: #567ed6;
 }
 
 .add2 {
-  background-color: gray;
+  background-color: #d3774c;
 }
 
 .add3 {
-  background-color: #567ed6;
+  background-color: gray;
 }
 
 .footer {
@@ -97,13 +109,28 @@ html {
 .footer .footer-top a {
   padding: 6px;
   text-decoration: none;
+  color: white;
+}
+.footer h2 {
+  color: #E44235;
+  font-size: medium;
+  margin-top: 40px;
 }
 .footer .btn {
   background-color: #4d4949;
   color: white;
 }
+.footer input[type=email] {
+  background-color: black;
+}
+.footer .know-us {
+  color: #E44235;
+}
 .footer .footer-bottom {
   background-color: #4d4949;
+}
+.footer .footer-bottom a {
+  color: #E44235;
 }
 
 .main-form {

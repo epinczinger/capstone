@@ -9,10 +9,18 @@ html {
     box-sizing: border-box;
 }
 
+p, h2 {
+    font-family: $main-font;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
+.main {
+    max-width: 1400px;
+    margin:0 auto;
+}
 
 .navbar {
     background-color: $main-color;
@@ -38,7 +46,7 @@ html {
         background-color: rgba(160, 160, 160, 0.7);
         
         p {
-            font: 700 large $main-font;
+            font: 700 large;
             color : rgb(34, 34, 34);
         }
     }
@@ -54,7 +62,6 @@ html {
 
 
     p {
-        font: $main-font;
         color: black;
     }
 
@@ -78,7 +85,7 @@ html {
     }
 
     h3 {
-        font: 700 large $main-font;
+        font: 700 large;
         color: $main-color;
     }
     
@@ -89,30 +96,37 @@ html {
     img {
     
         border-radius: 50%;
+        // max-width: 280px;
+        // max-height: 280px;
     
     }
 
+    h2 {
+        color: white;
+    }
+    
     p {
-        font: large $main-font;
-        color: rgb(58, 57, 57);
+        font: large;
+        color: WHITE;
     }
     
     .btn {
-        background-color: rgb(194, 63, 144);
+        background-color: rgb(77, 73, 73);
+        border: none;
     }
 }
 
 .add1 {
-    background-color:rgb(211, 119, 76);
+    background-color:rgb(86, 126, 214);
     
 }
 
 .add2 {
-    background-color: gray;
+    background-color: rgb(211, 119, 76);
 }
 
 .add3 {
-    background-color: rgb(86, 126, 214);
+    background-color: gray;
 }
 
 
@@ -127,18 +141,34 @@ html {
         a {
             padding: 6px;
             text-decoration: none;
+            color: white;
         }
     }
-   
+    
+    h2 {
+        color: $main-color;
+        font-size: medium;
+        margin-top: 40px;
+    }
 
     .btn {
         background-color: rgb(77, 73, 73);
- color: white;
+        color: white;
+    }
+
+    input[type=email] {
+        background-color: black;
+    }
+
+    .know-us {
+        color: $main-color;
     }
 
     .footer-bottom {
         background-color: rgb(77, 73, 73);
-      
+        a {
+            color: $main-color;
+        }
     }
 }
 
