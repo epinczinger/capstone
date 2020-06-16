@@ -36,12 +36,10 @@
                     <path fill-rule="evenodd"
                         d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
                 </svg>Opportunity</a>
-
-
             <div class="col-12 text-center  col-md-6 py-2">
-
-                <a href="#" class="px-3 text-white text-decoration-none"><svg class="bi bi-search" width="1em"
-                        height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <a href="searchresults.html" class="px-3 text-white text-decoration-none"><svg class="bi bi-search"
+                        width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
                         <path fill-rule="evenodd"
@@ -75,7 +73,6 @@
                     <p class="d-none d-lg-inline px-1">Menu</p>
                 </a>
             </div>
-
         </nav>
     </header>
 
@@ -115,13 +112,11 @@
                     <label class="pets">Pets:</label>
                     <div class="row">
                         <div class="form-check">
-                            <input class="form-pets" type="radio" name="petsYes" id="petsYes" value="petsYes">
+                            <input class="radio" type="radio" name="pets" id="petsYes" value="petsYes">
                             <label class="form-pets-label" for="petsYes">
                                 Yes
                             </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-pets" type="radio" name="petsNo" id="petsNo" value="petsNo" checked>
+                            <input class="radio" type="radio" name="pets" id="petsNo" value="petsNo" checked>
                             <label class="form-pets-label" for="petsNo">
                                 No
                             </label>
@@ -130,7 +125,9 @@
                             <button class="btn btn-primary d-none d-lg-inline" type="submit">Search!</button>
                         </div>
                     </div>
-                    <button class="btn btn-primary d-lg-none font-weight-bold" type="submit">Search for it!</button>
+                    <form action="">
+                        <button class="btn btn-primary d-lg-none font-weight-bold" type="submit">Search for it!</button>
+                    </form>
                 </div>
             </form>
 
@@ -138,64 +135,64 @@
 
         <div class="row search-results text-center">
 
-            <div class="row mx-2">
+            <div class="row mx-2" >
                 <h2 class="col-12">We've found 6 options for you!</h2>
                 <div class="my-2 col-12 col-sm-8 mx-auto col-md-6 col-lg-4 results">
-                    <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                    <a href="resultdetails.html"><svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
                         <path fill-rule="evenodd"
                             d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
-                    </svg>
+                    </svg></a>
                 </div>
 
                 <div class="my-2 col-12 col-sm-8 mx-auto col-md-6 col-lg-4 results">
-                    <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                    <a href="resultdetails.html"> <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
                         <path fill-rule="evenodd"
                             d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
-                    </svg>
+                    </svg></a>
                 </div>
 
                 <div class="my-2 col-12 col-sm-8 mx-auto col-md-6 col-lg-4 results">
-                    <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                    <a href="resultdetails.html"> <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
                         <path fill-rule="evenodd"
                             d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
-                    </svg>
+                    </svg></a>
                 </div>
                 <div class="my-2 col-12 col-sm-8 mx-auto col-md-6 col-lg-4 results">
-                    <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                    <a href="resultdetails.html">   <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
                         <path fill-rule="evenodd"
                             d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
-                    </svg>
+                    </svg></a>
                 </div>
                 <div class="my-2 col-12 col-sm-8 mx-auto col-md-6 col-lg-4 results">
-                    <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                    <a href="resultdetails.html">   <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
                         <path fill-rule="evenodd"
                             d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
-                    </svg>
+                    </svg></a>
                 </div>
 
                 <div class="my-2 col-12 col-sm-8 mx-auto col-md-6 col-lg-4 results">
-                    <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                    <a href="resultdetails.html">   <svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
                         <path fill-rule="evenodd"
                             d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z" />
-                    </svg>
+                    </svg></a>
                 </div>
 
 
@@ -209,7 +206,7 @@
 
 
 
-    <footer class="container-fluid footer">
+    <footer class="container-fluid footer ">
 
         <div class="row text-center text-white ">
 
