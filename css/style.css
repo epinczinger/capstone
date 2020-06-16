@@ -22,6 +22,10 @@ p, h2 {
 .navbar {
   background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
 }
+.navbar a {
+  font-size: 20px;
+  transition: all 1s ease-out;
+}
 
 .logo {
   font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
@@ -117,6 +121,10 @@ p, h2 {
   padding: 6px;
   text-decoration: none;
   color: white;
+  transition: all 1s ease-out;
+}
+.footer .footer-top a:hover {
+  color: #E44235;
 }
 .footer h2 {
   color: #E44235;
@@ -214,6 +222,15 @@ p, h2 {
 .register-form label {
   font: 700 large "Mukta", sans-serif, Helvetica;
   color: #5e5e5e;
+}
+
+.bi-arrow-repeat {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.bi-arrow-repeat:hover {
+  transform: rotate(180deg);
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

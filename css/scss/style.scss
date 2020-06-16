@@ -27,6 +27,13 @@ p, h2 {
 
 .navbar {
     background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
+    
+    a { 
+        font-size: 20px;
+        transition: all 1s ease-out;
+    }
+  
+ 
 }
 
 .logo
@@ -145,6 +152,11 @@ p, h2 {
             padding: 6px;
             text-decoration: none;
             color: white;
+            transition: all 1s ease-out;
+        }
+
+        a:hover {
+            color: $main-color;
         }
     }
     
@@ -264,4 +276,14 @@ p, h2 {
         font: 700 large $main-font;
         color: rgb(94, 94, 94);
     }
+}
+
+.bi-arrow-repeat {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.bi-arrow-repeat:hover {
+    transform: rotate(180deg);
+    font-size: 2em;
+
 }
