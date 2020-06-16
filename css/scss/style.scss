@@ -32,9 +32,8 @@ p, h2 {
     font-size: 20px;
 }
 
-
 .search-page {
-    background-image: url(../assets/images/background.webp);
+    background-image: url(../assets/images/backg.jpg);
     opacity: 0.9;
     background-position: center center;
     background-repeat: no-repeat;
@@ -174,7 +173,7 @@ p, h2 {
 
 
 .search-main {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     h3 {
         font: 700 40px $main-font;
@@ -217,5 +216,48 @@ p, h2 {
             font-size: 70px;
             color: white;
         }
+    }
+}
+
+
+
+.results-details {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+    .row {
+        background-color: rgb(230, 230, 230);
+    }
+    img {
+     
+        float: left;
+    }
+    h2 {
+        font: 700 40px $main-font;
+        color: rgb(94, 94, 94);
+    }
+    p {
+        font: 700 large $main-font;
+    
+        color: $main-color;
+    }
+    span { 
+        color: rgb(120, 120, 120);
+        text-decoration: underline;
+    }
+
+}
+
+
+.register-form {
+    input {
+        background-color:rgb(200, 200, 200);
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border-bottom: 2px dotted rgb(94, 94, 94);
+    }
+    label {
+        font: 700 large $main-font;
+        color: rgb(94, 94, 94);
     }
 }

@@ -25,7 +25,7 @@ p, h2 {
 }
 
 .search-page {
-  background-image: url(../assets/images/background.webp);
+  background-image: url(../assets/images/backg.jpg);
   opacity: 0.9;
   background-position: center center;
   background-repeat: no-repeat;
@@ -134,7 +134,7 @@ p, h2 {
 }
 
 .search-main {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .search-main h3 {
@@ -173,6 +173,39 @@ p, h2 {
 .search-results .results .bi-arrow-repeat {
   font-size: 70px;
   color: white;
+}
+
+.results-details {
+  max-width: 1400px;
+}
+.results-details margin .row {
+  background-color: #e6e6e6;
+}
+.results-details img {
+  float: left;
+}
+.results-details h2 {
+  font: 700 40px "Mukta", sans-serif, Helvetica;
+  color: #5e5e5e;
+}
+.results-details p {
+  font: 700 large "Mukta", sans-serif, Helvetica;
+  color: #E44235;
+}
+.results-details span {
+  color: #787878;
+  text-decoration: underline;
+}
+
+.register-form input {
+  background-color: #c8c8c8;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border-bottom: 2px dotted #5e5e5e;
+}
+.register-form label {
+  font: 700 large "Mukta", sans-serif, Helvetica;
+  color: #5e5e5e;
 }
 
 /*# sourceMappingURL=style.css.map */
