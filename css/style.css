@@ -16,7 +16,7 @@ p, h2 {
 }
 
 .navbar {
-  background-color: #E44235;
+  background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
 }
 
 .logo {
@@ -52,7 +52,7 @@ p, h2 {
 }
 .search-page .btn {
   width: auto;
-  background-color: #E44235;
+  background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
 }
 
 .four-steps i {
@@ -133,9 +133,46 @@ p, h2 {
   color: #E44235;
 }
 
+.search-main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.search-main h3 {
+  font: 700 40px "Mukta", sans-serif, Helvetica;
+  color: #787878;
+}
+.search-main .row-form {
+  background-color: #eeeeee;
+}
+
 .main-form {
   max-width: 700px;
   border-radius: 10px;
+}
+.main-form label {
+  font-weight: 700;
+}
+.main-form .btn {
+  color: white;
+  background-color: #2885ff;
+}
+
+.search-results h2 {
+  color: #787878;
+  font: 700 40px "Mukta", sans-serif, Helvetica;
+}
+.search-results .results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
+  border: 5px solid white;
+  width: 300px;
+  height: 300px;
+}
+.search-results .results .bi-arrow-repeat {
+  font-size: 70px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

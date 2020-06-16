@@ -23,7 +23,7 @@ p, h2 {
 }
 
 .navbar {
-    background-color: $main-color;
+    background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
 }
 
 .logo
@@ -67,7 +67,7 @@ p, h2 {
 
     .btn {
     width: auto;
-    background-color: $main-color;
+    background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
     }
 }
 
@@ -173,7 +173,49 @@ p, h2 {
 }
 
 
+.search-main {
+    max-width: 1300px;
+    margin: 0 auto;
+    h3 {
+        font: 700 40px $main-font;
+        color: rgb(120, 120, 120);
+    }
+    .row-form {
+        background-color: rgb(238, 238, 238);
+    }
+}
+
+
 .main-form {
+
     max-width: 700px;
     border-radius: 10px;
+    label {
+        font-weight: 700;
+    }
+    .btn {
+        color: white;
+        background-color: rgb(40, 133, 255);
+    
+    }
+}
+
+.search-results {
+    h2 {
+        color: rgb(120, 120, 120);
+        font: 700 40px $main-font;
+    }
+    .results {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
+        border: 5px solid white;
+        width: 300px;
+        height: 300px;
+        .bi-arrow-repeat {
+            font-size: 70px;
+            color: white;
+        }
+    }
 }
