@@ -14,7 +14,7 @@ p, h2 {
   box-sizing: inherit;
 }
 
-.main {
+.adds, .four-steps {
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -50,10 +50,22 @@ p, h2 {
 }
 .search-page h1 {
   font-weight: bold;
-  text-shadow: -3px -1px 5px rgba(136, 61, 61, 0.937);
+  text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
 }
-.search-page span {
-  font: 700 "MuseoModerno", cursive, sans-serif, Helvetica;
+.search-page h1 span {
+  font-size: 1.2em;
+  font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
+  animation-duration: 5s;
+  animation-name: opportunity;
+  animation-iteration-count: infinite;
+}
+@keyframes opportunity {
+  from {
+    color: inherit;
+  }
+  to {
+    color: #cf0404;
+  }
 }
 .search-page p {
   color: black;
@@ -66,6 +78,14 @@ p, h2 {
 .four-steps {
   background-color: white;
 }
+.four-steps .steps-icon {
+  transition: color 1s ease, font-size 1s ease;
+}
+.four-steps .steps-icon:hover {
+  color: #E44235;
+  cursor: pointer;
+  font-size: 45px;
+}
 .four-steps i {
   font-size: 30px;
 }
@@ -74,7 +94,7 @@ p, h2 {
   color: #E44235;
 }
 .four-steps h2 span {
-  font: "MuseoModerno", cursive, sans-serif, Helvetica;
+  font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
 }
 .four-steps h3 {
   font: 700 large;

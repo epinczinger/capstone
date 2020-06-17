@@ -1,5 +1,3 @@
-// font-family: 'Mukta', sans-serif;
-// font-family: 'MuseoModerno', cursive;
 
 $opportunity-font: 'MuseoModerno', cursive, sans-serif, Helvetica ;
 $main-font: 'Mukta', sans-serif, Helvetica;
@@ -8,6 +6,7 @@ $main-color: #E44235;
 html {
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(245, 245, 245);
 }
@@ -20,7 +19,7 @@ p, h2 {
     box-sizing: inherit;
 }
 
-.main {
+.adds, .four-steps {
     max-width: 1400px;
     margin:0 auto;
 }
@@ -32,12 +31,10 @@ p, h2 {
         font-size: 20px;
         transition: all 1s ease-out;
     }
-  
  
 }
 
-.logo
-{
+.logo {
     font-family: $opportunity-font;
     font-size: 20px;
 }
@@ -58,17 +55,30 @@ p, h2 {
             font: 700 large;
             color : rgb(34, 34, 34);
         }
+    
     }
 
     h1 {
         font-weight: bold;
-        text-shadow: -3px -1px 5px rgba(136, 61, 61, 0.937);
-    }
+        text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
 
-    span {
-        font: 700 $opportunity-font;
+        span {
+            font-size: 1.2em;
+            font-family: $opportunity-font;
+            animation-duration: 5s;
+            animation-name: opportunity;
+            animation-iteration-count: infinite;
+        }
+        @keyframes opportunity {
+            from {
+              color: inherit;
+            }
+          
+            to {
+              color: #cf0404;
+            }
+          }
     }
-
 
     p {
         color: black;
@@ -82,16 +92,28 @@ p, h2 {
 
 .four-steps {
     background-color: white;
+
+    .steps-icon {
+        transition: color 1s ease, font-size 1s ease ;
+    }
+
+    .steps-icon:hover {
+        color: $main-color;
+        cursor: pointer;
+        font-size: 45px;
+    }
+
     i {
         font-size: 30px;
     }
-    h2{
+
+    h2 {
         font: large 700;
         color: $main-color;
-        span {
-            font: $opportunity-font;
-        }
 
+        span {
+            font-family: $opportunity-font;
+        }
     }
 
     h3 {
@@ -104,11 +126,7 @@ p, h2 {
 .adds {
 
     img {
-    
         border-radius: 50%;
-        // max-width: 280px;
-        // max-height: 280px;
-    
     }
 
     h2 {
@@ -128,7 +146,6 @@ p, h2 {
 
 .add1 {
     background-color:rgb(86, 126, 214);
-    
 }
 
 .add2 {
@@ -148,6 +165,7 @@ p, h2 {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+
         a {
             padding: 6px;
             text-decoration: none;
@@ -181,6 +199,7 @@ p, h2 {
 
     .footer-bottom {
         background-color: rgb(77, 73, 73);
+
         a {
             color: $main-color;
         }
@@ -191,10 +210,12 @@ p, h2 {
 .search-main {
     max-width: 1400px;
     margin: 0 auto;
+
     h3 {
         font: 700 40px $main-font;
         color: rgb(120, 120, 120);
     }
+
     .row-form {
         background-color: rgb(238, 238, 238);
     }
@@ -202,24 +223,26 @@ p, h2 {
 
 
 .main-form {
-
     max-width: 700px;
     border-radius: 10px;
+
     label {
         font-weight: 700;
     }
+
     .btn {
         color: white;
         background-color: rgb(40, 133, 255);
-    
     }
 }
 
 .search-results {
+
     h2 {
         color: rgb(120, 120, 120);
         font: 700 40px $main-font;
     }
+
     .results {
         display: flex;
         justify-content: center;
@@ -228,6 +251,7 @@ p, h2 {
         border: 5px solid white;
         width: 300px;
         height: 300px;
+
         .bi-arrow-repeat {
             font-size: 70px;
             color: white;
@@ -244,19 +268,21 @@ p, h2 {
     .row {
         background-color: rgb(230, 230, 230);
     }
+
     img {
-     
         float: left;
     }
+
     h2 {
         font: 700 40px $main-font;
         color: rgb(94, 94, 94);
     }
+
     p {
         font: 700 large $main-font;
-    
         color: $main-color;
     }
+
     span { 
         color: rgb(120, 120, 120);
         text-decoration: underline;
@@ -282,19 +308,20 @@ p, h2 {
         width: 740px;
     }
 
-
-
 }
 
 
 .register-form {
+
     input {
         background-color:rgb(200, 200, 200);
         margin-bottom: 10px;
         border-radius: 3px;
         border-bottom: 2px dotted rgb(94, 94, 94);
     }
+
     label {
+
         font: 700 large $main-font;
         color: rgb(94, 94, 94);
     }
