@@ -262,6 +262,28 @@ p, h2 {
         text-decoration: underline;
     }
 
+    iframe {
+        border: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 500px;
+        width: 740px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 500px;
+        width: 740px;
+    }
+
+
+
 }
 
 

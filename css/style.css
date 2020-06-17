@@ -212,6 +212,23 @@ p, h2 {
   color: #787878;
   text-decoration: underline;
 }
+.results-details iframe {
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.results-details .mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 740px;
+}
+.results-details .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 740px;
+}
 
 .register-form input {
   background-color: #c8c8c8;
