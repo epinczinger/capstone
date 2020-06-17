@@ -322,7 +322,7 @@ h2 {
 
 .results-details .gmap_canvas {
   overflow: hidden;
-  background: none !important;
+  background: none;
   height: 500px;
   width: 740px;
 }
