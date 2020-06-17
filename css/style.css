@@ -6,24 +6,23 @@ body {
   background-color: whitesmoke;
 }
 
-p, h2 {
+p,
+h2 {
   font-family: "Mukta", sans-serif, Helvetica;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-.adds, .four-steps {
-  max-width: 1400px;
-  margin: 0 auto;
+.navbar {
+  background: linear-gradient(to bottom, #e44235 0%, #cf0404 100%);
 }
 
-.navbar {
-  background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
-}
 .navbar a {
-  font-size: 20px;
+  font-size: 18px;
   transition: all 1s ease-out;
 }
 
@@ -40,80 +39,112 @@ p, h2 {
   background-size: cover;
   min-height: 75vh;
 }
+
 .search-page .form {
   border-radius: 20px;
   background-color: rgba(160, 160, 160, 0.7);
 }
+
+.search-page p {
+  color: black;
+}
+
+.adds p {
+  font: large;
+  color: WHITE;
+}
+
+.results-details p {
+  font: normal medium "Mukta", sans-serif, Helvetica;
+  color: #222;
+}
+
 .search-page .form p {
   font: 700 large;
-  color: #222222;
+  color: #222;
 }
+
 .search-page h1 {
   font-weight: bold;
   text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
 }
+
+.results-details span {
+  color: #222;
+}
+
 .search-page h1 span {
-  font-size: 1.2em;
   font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-name: opportunity;
   animation-iteration-count: infinite;
 }
+
 @keyframes opportunity {
   from {
     color: inherit;
   }
+
   to {
     color: #cf0404;
   }
 }
-.search-page p {
-  color: black;
-}
+
 .search-page .btn {
   width: auto;
-  background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
+  background: linear-gradient(to bottom, #e44235 0%, #cf0404 100%);
+}
+
+.adds,
+.four-steps {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .four-steps {
   background-color: white;
 }
+
 .four-steps .steps-icon {
   transition: color 1s ease, font-size 1s ease;
 }
+
 .four-steps .steps-icon:hover {
-  color: #E44235;
+  color: #e44235;
   cursor: pointer;
-  font-size: 45px;
+  font-size: 35px;
 }
+
 .four-steps i {
   font-size: 30px;
 }
+
 .four-steps h2 {
   font: large 700;
-  color: #E44235;
+  color: #e44235;
 }
+
 .four-steps h2 span {
   font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
 }
+
 .four-steps h3 {
   font: 700 large;
-  color: #E44235;
+  color: #e44235;
 }
 
 .adds img {
   border-radius: 50%;
 }
+
 .adds h2 {
   color: white;
 }
-.adds p {
-  font: large;
-  color: WHITE;
-}
+
 .adds .btn {
-  background-color: #4d4949;
+  background-color: #5f5f5f;
   border: none;
+  font-weight: bold;
 }
 
 .add1 {
@@ -125,68 +156,87 @@ p, h2 {
 }
 
 .add3 {
-  background-color: gray;
+  background-color: #9e9e9e;
 }
 
 .footer {
   background-color: black;
 }
+
 .footer .footer-top {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .footer .footer-top a {
   padding: 6px;
   text-decoration: none;
   color: white;
   transition: all 1s ease-out;
 }
-.footer .footer-top a:hover {
-  color: #E44235;
+
+.footer .footer-bottom a {
+  color: #e44235;
 }
+
+.results-details .view-details a {
+  font: bold medium "Mukta", sans-serif, Helvetica;
+  color: #222;
+  text-decoration: none;
+}
+
+.footer .footer-top a:hover {
+  color: #e44235;
+}
+
 .footer h2 {
-  color: #E44235;
+  color: #e44235;
   font-size: medium;
   margin-top: 40px;
 }
+
 .footer .btn {
   background-color: #4d4949;
   color: white;
 }
+
 .footer input[type=email] {
   background-color: black;
 }
+
 .footer .know-us {
-  color: #E44235;
+  color: #e44235;
 }
+
 .footer .footer-bottom {
   background-color: #4d4949;
-}
-.footer .footer-bottom a {
-  color: #E44235;
 }
 
 .search-main {
   max-width: 1400px;
   margin: 0 auto;
 }
+
 .search-main h3 {
   font: 700 40px "Mukta", sans-serif, Helvetica;
   color: #787878;
 }
+
 .search-main .row-form {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .main-form {
   max-width: 700px;
   border-radius: 10px;
 }
+
 .main-form label {
   font-weight: 700;
 }
+
 .main-form .btn {
   color: white;
   background-color: #2885ff;
@@ -194,17 +244,28 @@ p, h2 {
 
 .search-results h2 {
   color: #787878;
-  font: 700 40px "Mukta", sans-serif, Helvetica;
+  font: 700 35px "Mukta", sans-serif, Helvetica;
 }
+
 .search-results .results {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #E44235 0%, #cf0404 100%);
+  background: linear-gradient(to bottom, #e44235 0%, #cf0404 100%);
   border: 5px solid white;
   width: 300px;
   height: 300px;
 }
+
+.bi-arrow-repeat {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.bi-arrow-repeat:hover {
+  transform: rotate(180deg);
+  font-size: 2em;
+}
+
 .search-results .results .bi-arrow-repeat {
   font-size: 70px;
   color: white;
@@ -214,35 +275,51 @@ p, h2 {
   max-width: 1400px;
   margin: 0 auto;
 }
+
 .results-details .row {
   background-color: #e6e6e6;
 }
+
+.results-details .result-form {
+  background-color: white;
+  box-shadow: 0 0 5px 2px #949494;
+}
+
+.results-details .result-form .box-items {
+  box-shadow: 0 0 5px 2px #949494;
+}
+
+.results-details .result-form h3 {
+  font-size: 25px;
+}
+
+.results-details .result-form p {
+  color: #2885ff;
+  font-weight: bold;
+}
+
 .results-details img {
   float: left;
 }
+
 .results-details h2 {
-  font: 700 40px "Mukta", sans-serif, Helvetica;
-  color: #5e5e5e;
+  font: 700 35px/37px "Mukta", sans-serif, Helvetica;
+  color: #e44235;
 }
-.results-details p {
-  font: 700 large "Mukta", sans-serif, Helvetica;
-  color: #E44235;
-}
-.results-details span {
-  color: #787878;
-  text-decoration: underline;
-}
+
 .results-details iframe {
   border: 0;
   margin: 0;
   overflow: hidden;
 }
+
 .results-details .mapouter {
   position: relative;
   text-align: right;
   height: 500px;
   width: 740px;
 }
+
 .results-details .gmap_canvas {
   overflow: hidden;
   background: none !important;
@@ -256,18 +333,8 @@ p, h2 {
   border-radius: 3px;
   border-bottom: 2px dotted #5e5e5e;
 }
+
 .register-form label {
   font: 700 large "Mukta", sans-serif, Helvetica;
   color: #5e5e5e;
 }
-
-.bi-arrow-repeat {
-  transition: width 2s, height 2s, transform 2s;
-}
-
-.bi-arrow-repeat:hover {
-  transform: rotate(180deg);
-  font-size: 2em;
-}
-
-/*# sourceMappingURL=style.css.map */

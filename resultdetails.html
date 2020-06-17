@@ -33,7 +33,7 @@
 
         <nav class="navbar">
             <a class="logo py-2 col-12 text-center  col-md-3 text-white font-weight-bold text-decoration-none"
-                href="#"><svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
+                href="index.html"><svg class="bi bi-arrow-repeat mx-2" width="1em" height="1em" viewBox="0 0 16 16"
                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
                         d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z" />
@@ -80,40 +80,51 @@
         </nav>
     </header>
 
-    <main class="main container-fluid results-details ">
+    <main class="container-fluid results-details ">
 
         <!-- RESULTS DETAILS  -->
 
-        <div class="row ">
-            <div class="text-center col-12 py-3 bg-light">
-                <h2>Cabañas del Saladero</h2>
-                <h3 class="text-muted">Your place in the world</h3>
-            </div>
-            <div class="border p-4 pr-5 mx-auto">
-                <div class="col-10 col-md-6 mx-auto">
-                    <p> <span>Location:</span> General Lavalle, Argentina</p>
+        <div class="row px-3">
+            <div class="container ">
+                <div class="border col-12 row text-center result-form mx-auto my-4">
+                    <div class="col-12 offset-md-1 p-2 text-left">
+                        <h2>Cabañas del Saladero</h2>
+                        <h3 class="text-muted">Your place in the world</h3>
+                    </div>
+                    <div class="col-12 col-md-5 mx-auto pt-3 border m-2 box-items">
+                        <p> <span>Location:</span> General Lavalle, Argentina</p>
+                    </div>
+                    <div class=" col-12 col-md-5 mx-auto pt-3 border m-2 box-items">
+                        <p> <span>Type:</span> Cottages</p>
+                    </div>
+                    <div class="col-12 col-md-5 mx-auto pt-3 border m-2 box-items">
+                        <p> <span>Breakfast:</span> Included</p>
+                    </div>
+                    <div class="col-12 col-md-5 mx-auto pt-3 border m-2 box-items">
+                        <p> <span>Pets:</span> Yes</p>
+                    </div>
+                    <div class="col-12 col-md-5 mx-auto pt-3 border m-2 box-items">
+                        <p> <span>Te:</span> + 549 2246 762412</p>
+                    </div>
+                    <div class="col-12 col-md-5 mx-auto pt-3 border m-2 box-items">
+                        <p> <span>Email:</span> delsaladero@gmail.com</p>
+                    </div>
+                    <div class="col-12 m-2">
+                        <button class="btn-primary  float-right">I want it!</button>
+                    </div>
                 </div>
-                <div class=" col-10 col-md-6 mx-auto">
-                    <p> <span>Type:</span> Cottages</p>
+
+
+                <div class="bg-light">
+                    <p class="px-5 ">
+                        Place to relax and enjoy nature and local fauna. Located in General Lavalle just 5 'from the
+                        town center and 25' from the Atlantic coast. The cabins are located on a 3 hectare site with
+                        access to the estuary, a soccer field, a volleyball field, trails and lots of nature!</p>
                 </div>
-                <div class="col-10 col-md-6 mx-auto">
-                    <p> <span>Breakfast:</span> Included</p>
+
+                <div class="view-details col-12 text-center p-4">
+                    <a href="assets/images/result.jpg" target="_blank">Click here to see more details</a>
                 </div>
-                <div class="col-10 col-md-6 mx-auto">
-                    <p> <span>Pets:</span> Yes</p>
-                </div>
-                <div class="col-10 col-md-6 mx-auto">
-                    <p> <span>Te:</span> + 549 2246 762412</p>
-                </div>
-                <div class="col-10 col-md-6 mx-auto">
-                    <p> <span>Email:</span> delsaladero@gmail.com</p>
-                </div>
-                <div class="col-10 col-md-6 mx-auto">
-                    <button class="btn-primary ">I want it!</button>
-                </div>
-            </div>
-            <div class="col-12 mx-auto col-md-6 align-self-center">
-                <img class="img-fluid " src="assets/images/result.jpg" alt="result-image">
             </div>
         </div>
 
@@ -138,11 +149,11 @@
 
         <div class="row">
 
-            <div class="text-center col-12 d-block py-3 bg-light">
+            <div class="text-center col-12 mx-auto py-3 bg-light">
                 <h2>Register Form</h2>
             </div>
-            <div class="register-form py-3 col-12 m-5">
-                <form class="col-12 col-md-6 mx-auto row flex-column " id="form">
+            <div class="register-form py-3 col-10 mx-auto ">
+                <form class="col-12 col-md-6 mx-auto row flex-column justify-content-center-center " id="form">
                     <label for="name">First Name*</label>
                     <input type="text" id="name" placeholder="First name" required>
 
