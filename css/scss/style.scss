@@ -1,369 +1,351 @@
 
-$opportunity-font: 'MuseoModerno', cursive, sans-serif, Helvetica ;
+$opportunity-font: 'MuseoModerno', cursive, sans-serif, Helvetica;
 $main-font: 'Mukta', sans-serif, Helvetica;
-$main-color: #E44235;
+$main-color: #e44235;
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
 }
 
-p, h2 {
-    font-family: $main-font;
+p,
+h2 {
+  font-family: $main-font;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .navbar {
-    background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
-    
-    a { 
-        font-size: 18px;
-    }
- 
+  background: linear-gradient(to bottom, $main-color 0%, #cf0404 100%);
+
+  a {
+    font-size: 18px;
+  }
 }
 
 .logo {
-    font-family: $opportunity-font;
-    font-size: 20px;
+  font-family: $opportunity-font;
+  font-size: 20px;
 }
 
 .search-page {
-    background-image: url(../assets/images/backg.jpg);
-    opacity: 0.9;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 75vh;
+  background-image: url(../assets/images/backg.jpg);
+  opacity: 0.9;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
 
-    .form {
-        border-radius: 20px;
-        background-color: rgba(160, 160, 160, 0.7);
-        
-        p {
-            font: 700 large;
-            color : rgb(34, 34, 34);
-        }
-    
-    }
+  p {
+    color: black;
+  }
 
-    h1 {
-        font-weight: bold;
-        text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
-
-        span {
-            font-family: $opportunity-font;
-            animation-duration: 10s;
-            animation-name: opportunity;
-            animation-iteration-count: infinite;
-        }
-        @keyframes opportunity {
-            from {
-              color: inherit;
-            }
-          
-            to {
-              color: #cf0404;
-            }
-        }
-    }
+  .form {
+    border-radius: 20px;
+    background-color: rgba(160, 160, 160, 0.7);
 
     p {
-        color: black;
+      font: 700 large;
+      color: rgb(34, 34, 34);
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
+
+    span {
+      font-family: $opportunity-font;
+      animation-duration: 10s;
+      animation-name: opportunity;
+      animation-iteration-count: infinite;
     }
 
-    .btn {
-    width: auto;
-    background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
+    @keyframes opportunity {
+      from {
+        color: inherit;
+      }
+
+      to {
+        color: #cf0404;
+      }
     }
+  }
+
+  .btn {
+    width: auto;
+    background: linear-gradient(to bottom, $main-color 0%, #cf0404 100%);
+  }
 }
 
-.adds, .four-steps {
-    max-width: 1400px;
-    margin:0 auto;
+.adds,
+.four-steps {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .four-steps {
-    background-color: white;
+  background-color: white;
 
-    .steps-icon {
-        transition: color 1s ease, font-size 1s ease ;
+  .steps-icon {
+    transition: color 1s ease, font-size 1s ease;
+  }
+
+  .steps-icon:hover {
+    color: $main-color;
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+
+  h2 {
+    font: large 700;
+    color: $main-color;
+
+    span {
+      font-family: $opportunity-font;
     }
+  }
 
-    .steps-icon:hover {
-        color: $main-color;
-        cursor: pointer;
-        font-size: 35px;
-    }
-
-    i {
-        font-size: 30px;
-    }
-
-    h2 {
-        font: large 700;
-        color: $main-color;
-
-        span {
-            font-family: $opportunity-font;
-        }
-    }
-
-    h3 {
-        font: 700 large;
-        color: $main-color;
-    } 
+  h3 {
+    font: 700 large;
+    color: $main-color;
+  }
 }
 
 .adds {
+  img {
+    border-radius: 50%;
+  }
 
-    img {
-        border-radius: 50%;
-    }
+  h2 {
+    color: white;
+  }
 
-    h2 {
-        color: white;
-    }
-    
-    p {
-        font: large;
-        color: WHITE;
-    }
-    
-    .btn {
-        background-color: rgb(95, 95, 95);
-        border: none;
-        font-weight: bold;
-    }
+  .btn {
+    background-color: rgb(95, 95, 95);
+    border: none;
+    font-weight: bold;
+  }
 }
 
 .add1 {
-    background-color:rgb(86, 126, 214);
+  background-color: rgb(86, 126, 214);
 }
 
 .add2 {
-    background-color: rgb(211, 119, 76);
+  background-color: rgb(211, 119, 76);
 }
 
 .add3 {
-    background-color: rgb(158, 158, 158);
-}
-
-
-.footer {
-    background-color: black;
-   
-    .footer-top {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-
-        a {
-            padding: 6px;
-            text-decoration: none;
-            color: white;
-            transition: all 1s ease-out;
-        }
-
-        a:hover {
-            color: $main-color;
-        }
-    }
-    
-    h2 {
-        color: $main-color;
-        font-size: medium;
-        margin-top: 40px;
-    }
-
-    .btn {
-        background-color: rgb(77, 73, 73);
-        color: white;
-    }
-
-    input[type=email] {
-        background-color: black;
-    }
-
-    .know-us {
-        color: $main-color;
-    }
-
-    .footer-bottom {
-        background-color: rgb(77, 73, 73);
-
-        a {
-            color: $main-color;
-        }
-    }
-}
-
-
-// SEARCH RESULTS PAGE 
-
-.search-main {
-    max-width: 1400px;
-    margin: 0 auto;
-
-    h3 {
-        font: 700 40px $main-font;
-        color: rgb(120, 120, 120);
-    }
-
-    .row-form {
-        background-color: rgb(238, 238, 238);
-    }
-}
-
-.main-form {
-    max-width: 700px;
-    border-radius: 10px;
-
-    label {
-        font-weight: 700;
-    }
-
-    .btn {
-        color: white;
-        background-color: rgb(40, 133, 255);
-    }
-}
-
-.search-results {
-
-    h2 {
-        color: rgb(120, 120, 120);
-        font: 700 35px $main-font;
-    }
-
-    .results {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(to bottom, $main-color 0%,#cf0404 100%);
-        border: 5px solid white;
-        width: 300px;
-        height: 300px;
-
-        .bi-arrow-repeat {
-            font-size: 70px;
-            color: white;
-        }
-    }
-}
-
-
-// RESULT DETAILS PAGE 
-
-.results-details {
-    max-width: 1400px;
-    margin: 0 auto;
-    
-    
-    .row {
-        background-color: rgb(230, 230, 230);
-    }
-
-    p {
-        font: normal medium $main-font;
-        color:rgb(34, 34, 34);
-    }
-
-    .result-form {
-        
-        background-color: white;
-        box-shadow: 0px 0px 5px 2px rgba(148,148,148,1);
-
-        .box-items {
-            box-shadow: 0px 0px 5px 2px rgba(148,148,148,1);
-        }
-
-        h3 {
-            font-size: 25px;
-        }
-
-        p {
-            color: rgb(40, 133, 255);
-            font-weight: bold;
-        }
-    }
-
-    img {
-        float: left;
-    }
-
-    h2 {
-        font: 700 35px/37px $main-font;
-        color:$main-color;
-    }
-
-
-    span { 
-        color: rgb(34, 34, 34);
-        
-    }
-
-
-    .view-details {
-
-        a {
-            font: bold medium $main-font;
-            color:rgb(34, 34, 34);
-            text-decoration: none;
-            
-        }
-    }
-
-    iframe {
-        border: 0;
-        margin: 0;
-        overflow: hidden;
-    }
-
-    .mapouter {
-        position: relative;
-        text-align: right;
-        height: 500px;
-        width: 740px;
-    }
-
-    .gmap_canvas {
-        overflow: hidden;
-        background: none !important;
-        height: 500px;
-        width: 740px;
-    }
-
-}
-
-.register-form {
-
-    input {
-        background-color:rgb(200, 200, 200);
-        margin-bottom: 10px;
-        border-radius: 3px;
-        border-bottom: 2px dotted rgb(94, 94, 94);
-    }
-
-    label {
-
-        font: 700 large $main-font;
-        color: rgb(94, 94, 94);
-    }
+  background-color: rgb(158, 158, 158);
 }
 
 .bi-arrow-repeat {
-    transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 2s;
 }
 
 .bi-arrow-repeat:hover {
-    transform: rotate(180deg);
-    font-size: 2em;
+  transform: rotate(180deg);
+  font-size: 2em;
+}
 
+// SEARCH RESULTS PAGE
+
+.search-main {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  h3 {
+    font: 700 40px $main-font;
+    color: rgb(120, 120, 120);
+  }
+
+  .row-form {
+    background-color: rgb(238, 238, 238);
+  }
+}
+
+.main-form {
+  max-width: 700px;
+  border-radius: 10px;
+
+  label {
+    font-weight: 700;
+  }
+
+  .btn {
+    color: white;
+    background-color: rgb(40, 133, 255);
+  }
+}
+
+.search-results {
+  h2 {
+    color: rgb(120, 120, 120);
+    font: 700 35px $main-font;
+  }
+
+  .results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, $main-color 0%, #cf0404 100%);
+    border: 5px solid white;
+    width: 300px;
+    height: 300px;
+
+    .bi-arrow-repeat {
+      font-size: 70px;
+      color: white;
+    }
+  }
+}
+
+// RESULT DETAILS PAGE
+
+.results-details {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .row {
+    background-color: rgb(230, 230, 230);
+  }
+
+  p {
+    font: normal medium $main-font;
+    color: rgb(34, 34, 34);
+  }
+
+  .result-form {
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgba(148, 148, 148, 1);
+
+    .box-items {
+      box-shadow: 0 0 5px 2px rgba(148, 148, 148, 1);
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+
+    p {
+      color: rgb(40, 133, 255);
+      font-weight: bold;
+    }
+  }
+
+  img {
+    float: left;
+  }
+
+  h2 {
+    font: 700 35px/37px $main-font;
+    color: $main-color;
+  }
+
+  span {
+    color: rgb(34, 34, 34);
+  }
+
+  .view-details {
+    a {
+      font: bold medium $main-font;
+      color: rgb(34, 34, 34);
+      text-decoration: none;
+    }
+  }
+
+  iframe {
+    border: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 740px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 740px;
+  }
+}
+
+.register-form {
+  input {
+    background-color: rgb(200, 200, 200);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-bottom: 2px dotted rgb(94, 94, 94);
+  }
+
+  label {
+    font: 700 large $main-font;
+    color: rgb(94, 94, 94);
+  }
+}
+
+.footer {
+  background-color: black;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+      padding: 6px;
+      text-decoration: none;
+      color: white;
+      transition: all 1s ease-out;
+    }
+
+    a:hover {
+      color: $main-color;
+    }
+  }
+
+  h2 {
+    color: $main-color;
+    font-size: medium;
+    margin-top: 40px;
+  }
+
+  .btn {
+    background-color: rgb(77, 73, 73);
+    color: white;
+  }
+
+  input[type=email] {
+    background-color: black;
+  }
+
+  .know-us {
+    color: $main-color;
+  }
+
+  .footer-bottom {
+    background-color: rgb(77, 73, 73);
+
+    a {
+      color: $main-color;
+    }
+  }
 }
