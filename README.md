@@ -1,14 +1,23 @@
 # Capstone project
 
-The aim of this project is to build my own site applying the learnt knowledge.
+The aim of this project is to build my own site applying learnt knowledge.
 
-## Mobile version
 
-![screenshot](/assets/images/screenshot.jpeg)
+## Live Demo
 
-## Desktop version
+-  [Live Demo Link](https://raw.githack.com/epinczinger/capstone/development/index.html)
 
-![screenshot](/assets/images/screenshot2.jpeg)
+
+## Project Explanation video
+
+- [20 min video - Detailed version](https://www.loom.com/share/7ee8f672059b4057aea468e3fe2e1baf)
+
+- [5 min video - Short version](https://www.loom.com/share/ab95f9b0a3a148f19d91889b367d99eb)
+
+
+## Desktop main page version
+
+![screenshot](/assets/images/screenshot.png)
 
 
 ## Built With
@@ -19,13 +28,6 @@ The aim of this project is to build my own site applying the learnt knowledge.
 - Bootstrap
 - Stylelint and Stickler for linting purpose
 
-
-## Requirements:
-
-
-## Live Demo
-
--  [Live Demo Link](https://raw.githack.com/epinczinger/capstone/development/index.html)
 
 ## Getting Started
 
