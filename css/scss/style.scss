@@ -58,6 +58,7 @@ h2 {
   }
 
   h1 {
+    font-size: 25px;
     font-weight: bold;
     text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
 
@@ -166,8 +167,8 @@ h2 {
   max-width: 1400px;
   margin: 0 auto;
 
-  h3 {
-    font: 700 40px $main-font;
+  h1 {
+    font: 700 25px $main-font;
     color: rgb(120, 120, 120);
   }
 
@@ -193,7 +194,7 @@ h2 {
 .search-results {
   h2 {
     color: rgb(120, 120, 120);
-    font: 700 35px $main-font;
+    font: 700 25px $main-font;
   }
 
   .results {
@@ -250,6 +251,11 @@ h2 {
   }
 
   h2 {
+    font: 700 35px/37px $main-font;
+    color: $main-color;
+  }
+
+  h1 {
     font: 700 35px/37px $main-font;
     color: $main-color;
   }
@@ -348,4 +354,23 @@ h2 {
       color: $main-color;
     }
   }
+}
+
+
+@media only screen and (min-width: 768px) { 
+
+  .search-page {
+    h1 {
+      font-size: 35px;
+    }
+  }
+
+  .search-main h1 {
+    font-size: 40px;
+  }
+
+  .search-results h2 {
+    font-size: 35px;
+  }
+
 }

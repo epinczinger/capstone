@@ -18,12 +18,11 @@ h2 {
 }
 
 .navbar {
-  background: linear-gradient(to bottom, #e44235 0%, #cf0404 100%);
+  background: linear-gradient(to bottom, #e44235 0%, #d42a2a 100%);
 }
 
 .navbar a {
   font-size: 18px;
-  transition: all 1s ease-out;
 }
 
 .logo {
@@ -40,18 +39,13 @@ h2 {
   min-height: 75vh;
 }
 
-.search-page .form {
-  border-radius: 20px;
-  background-color: rgba(160, 160, 160, 0.7);
-}
-
 .search-page p {
   color: black;
 }
 
-.adds p {
-  font: large;
-  color: WHITE;
+.search-page .form {
+  border-radius: 20px;
+  background-color: rgba(160, 160, 160, 0.7);
 }
 
 .results-details p {
@@ -64,13 +58,14 @@ h2 {
   color: #222;
 }
 
-.search-page h1 {
-  font-weight: bold;
-  text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
-}
-
 .results-details span {
   color: #222;
+}
+
+.search-page h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
 }
 
 .search-page h1 span {
@@ -86,13 +81,13 @@ h2 {
   }
 
   to {
-    color: #cf0404;
+    color: #d42a2a;
   }
 }
 
 .search-page .btn {
   width: auto;
-  background: linear-gradient(to bottom, #e44235 0%, #cf0404 100%);
+  background: linear-gradient(to bottom, #e44235 0%, #d42a2a 100%);
 }
 
 .adds,
@@ -159,59 +154,13 @@ h2 {
   background-color: #9e9e9e;
 }
 
-.footer {
-  background-color: black;
+.bi-arrow-repeat {
+  transition: width 2s, height 2s, transform 2s;
 }
 
-.footer .footer-top {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer .footer-top a {
-  padding: 6px;
-  text-decoration: none;
-  color: white;
-  transition: all 1s ease-out;
-}
-
-.footer .footer-bottom a {
-  color: #e44235;
-}
-
-.results-details .view-details a {
-  font: bold medium "Mukta", sans-serif, Helvetica;
-  color: #222;
-  text-decoration: none;
-}
-
-.footer .footer-top a:hover {
-  color: #e44235;
-}
-
-.footer h2 {
-  color: #e44235;
-  font-size: medium;
-  margin-top: 40px;
-}
-
-.footer .btn {
-  background-color: #4d4949;
-  color: white;
-}
-
-.footer input[type=email] {
-  background-color: black;
-}
-
-.footer .know-us {
-  color: #e44235;
-}
-
-.footer .footer-bottom {
-  background-color: #4d4949;
+.bi-arrow-repeat:hover {
+  transform: rotate(180deg);
+  font-size: 2em;
 }
 
 .search-main {
@@ -219,8 +168,8 @@ h2 {
   margin: 0 auto;
 }
 
-.search-main h3 {
-  font: 700 40px "Mukta", sans-serif, Helvetica;
+.search-main h1 {
+  font: 700 25px "Mukta", sans-serif, Helvetica;
   color: #787878;
 }
 
@@ -244,7 +193,7 @@ h2 {
 
 .search-results h2 {
   color: #787878;
-  font: 700 35px "Mukta", sans-serif, Helvetica;
+  font: 700 25px "Mukta", sans-serif, Helvetica;
 }
 
 .search-results .results {
@@ -255,15 +204,6 @@ h2 {
   border: 5px solid white;
   width: 300px;
   height: 300px;
-}
-
-.bi-arrow-repeat {
-  transition: width 2s, height 2s, transform 2s;
-}
-
-.bi-arrow-repeat:hover {
-  transform: rotate(180deg);
-  font-size: 2em;
 }
 
 .search-results .results .bi-arrow-repeat {
@@ -307,6 +247,17 @@ h2 {
   color: #e44235;
 }
 
+.results-details h1 {
+  font: 700 35px/37px "Mukta", sans-serif, Helvetica;
+  color: #e44235;
+}
+
+.results-details .view-details a {
+  font: bold medium "Mukta", sans-serif, Helvetica;
+  color: #222;
+  text-decoration: none;
+}
+
 .results-details iframe {
   border: 0;
   margin: 0;
@@ -322,7 +273,7 @@ h2 {
 
 .results-details .gmap_canvas {
   overflow: hidden;
-  background: none;
+  background: none !important;
   height: 500px;
   width: 740px;
 }
@@ -337,4 +288,67 @@ h2 {
 .register-form label {
   font: 700 large "Mukta", sans-serif, Helvetica;
   color: #5e5e5e;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .footer-top a {
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease-out;
+}
+
+.footer .footer-bottom a {
+  color: #e44235;
+}
+
+.footer .footer-top a:hover {
+  color: #e44235;
+}
+
+.footer h2 {
+  color: #e44235;
+  font-size: medium;
+  margin-top: 40px;
+}
+
+.footer .btn {
+  background-color: #4d4949;
+  color: white;
+}
+
+.footer input[type=email] {
+  background-color: black;
+}
+
+.footer .know-us {
+  color: #e44235;
+}
+
+.footer .footer-bottom {
+  background-color: #4d4949;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-page h1 {
+    font-size: 35px;
+  }
+
+  .search-main h1 {
+    font-size: 40px;
+  }
+
+  .search-results h2 {
+    font-size: 35px;
+  }
 }
