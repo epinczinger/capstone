@@ -1,0 +1,354 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+p,
+h2 {
+  font-family: "Mukta", sans-serif, Helvetica;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #e44235 0%, #d42a2a 100%);
+}
+
+.navbar a {
+  font-size: 18px;
+}
+
+.logo {
+  font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
+  font-size: 20px;
+}
+
+.search-page {
+  background-image: url(../assets/images/backg.jpg);
+  opacity: 0.9;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+}
+
+.search-page p {
+  color: black;
+}
+
+.search-page .form {
+  border-radius: 20px;
+  background-color: rgba(160, 160, 160, 0.7);
+}
+
+.results-details p {
+  font: normal medium "Mukta", sans-serif, Helvetica;
+  color: #222;
+}
+
+.search-page .form p {
+  font: 700 large;
+  color: #222;
+}
+
+.results-details span {
+  color: #222;
+}
+
+.search-page h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: -3px -1px 5px rgba(48, 46, 46, 0.937);
+}
+
+.search-page h1 span {
+  font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
+  animation-duration: 10s;
+  animation-name: opportunity;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opportunity {
+  from {
+    color: inherit;
+  }
+
+  to {
+    color: #d42a2a;
+  }
+}
+
+.search-page .btn {
+  width: auto;
+  background: linear-gradient(to bottom, #e44235 0%, #d42a2a 100%);
+}
+
+.adds,
+.four-steps {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.four-steps {
+  background-color: white;
+}
+
+.four-steps .steps-icon {
+  transition: color 1s ease, font-size 1s ease;
+}
+
+.four-steps .steps-icon:hover {
+  color: #e44235;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.four-steps i {
+  font-size: 30px;
+}
+
+.four-steps h2 {
+  font: large 700;
+  color: #e44235;
+}
+
+.four-steps h2 span {
+  font-family: "MuseoModerno", cursive, sans-serif, Helvetica;
+}
+
+.four-steps h3 {
+  font: 700 large;
+  color: #e44235;
+}
+
+.adds img {
+  border-radius: 50%;
+}
+
+.adds h2 {
+  color: white;
+}
+
+.adds .btn {
+  background-color: #5f5f5f;
+  border: none;
+  font-weight: bold;
+}
+
+.add1 {
+  background-color: #567ed6;
+}
+
+.add2 {
+  background-color: #d3774c;
+}
+
+.add3 {
+  background-color: #9e9e9e;
+}
+
+.bi-arrow-repeat {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.bi-arrow-repeat:hover {
+  transform: rotate(180deg);
+  font-size: 2em;
+}
+
+.search-main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.search-main h1 {
+  font: 700 25px "Mukta", sans-serif, Helvetica;
+  color: #787878;
+}
+
+.search-main .row-form {
+  background-color: #eee;
+}
+
+.main-form {
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.main-form label {
+  font-weight: 700;
+}
+
+.main-form .btn {
+  color: white;
+  background-color: #2885ff;
+}
+
+.search-results h2 {
+  color: #787878;
+  font: 700 25px "Mukta", sans-serif, Helvetica;
+}
+
+.search-results .results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #e44235 0%, #cf0404 100%);
+  border: 5px solid white;
+  width: 300px;
+  height: 300px;
+}
+
+.search-results .results .bi-arrow-repeat {
+  font-size: 70px;
+  color: white;
+}
+
+.results-details {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.results-details .row {
+  background-color: #e6e6e6;
+}
+
+.results-details .result-form {
+  background-color: white;
+  box-shadow: 0 0 5px 2px #949494;
+}
+
+.results-details .result-form .box-items {
+  box-shadow: 0 0 5px 2px #949494;
+}
+
+.results-details .result-form h3 {
+  font-size: 25px;
+}
+
+.results-details .result-form p {
+  color: #2885ff;
+  font-weight: bold;
+}
+
+.results-details img {
+  float: left;
+}
+
+.results-details h2 {
+  font: 700 35px/37px "Mukta", sans-serif, Helvetica;
+  color: #e44235;
+}
+
+.results-details h1 {
+  font: 700 35px/37px "Mukta", sans-serif, Helvetica;
+  color: #e44235;
+}
+
+.results-details .view-details a {
+  font: bold medium "Mukta", sans-serif, Helvetica;
+  color: #222;
+  text-decoration: none;
+}
+
+.results-details iframe {
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.results-details .mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 740px;
+}
+
+.results-details .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 740px;
+}
+
+.register-form input {
+  background-color: #c8c8c8;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border-bottom: 2px dotted #5e5e5e;
+}
+
+.register-form label {
+  font: 700 large "Mukta", sans-serif, Helvetica;
+  color: #5e5e5e;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .footer-top a {
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease-out;
+}
+
+.footer .footer-bottom a {
+  color: #e44235;
+}
+
+.footer .footer-top a:hover {
+  color: #e44235;
+}
+
+.footer h2 {
+  color: #e44235;
+  font-size: medium;
+  margin-top: 40px;
+}
+
+.footer .btn {
+  background-color: #4d4949;
+  color: white;
+}
+
+.footer input[type=email] {
+  background-color: black;
+}
+
+.footer .know-us {
+  color: #e44235;
+}
+
+.footer .footer-bottom {
+  background-color: #4d4949;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-page h1 {
+    font-size: 35px;
+  }
+
+  .search-main h1 {
+    font-size: 40px;
+  }
+
+  .search-results h2 {
+    font-size: 35px;
+  }
+}
