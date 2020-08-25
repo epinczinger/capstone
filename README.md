@@ -81,7 +81,7 @@ Go to the project directory and run open the `index.html` file on your browser.
 
 - Github: [epinczinger](https://github.com/epinczinger)
 - Twitter: [@epinczinger](https://twitter.com/epinczinger)
-- Linkedin: [Esteban-Pinczinger](https://www.linkedin.com/in/esteban-pinczinger-busai-ab49a254/)
+- Linkedin: [Esteban-Pinczinger](https://www.linkedin.com/in/esteban-pinczinger/)
 
 ## 🤝 Contributing
 
