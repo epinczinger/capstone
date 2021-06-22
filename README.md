@@ -57,7 +57,7 @@ Setup your machine setup
   > To get a local copy up and running follow these simple example steps.
 
 1. Open the terminal comand line window
-2. ``` git clone https://github.com/epinczinger/newsweek.git```
+2. ``` git clone https://github.com/epinczinger/capstone.git```
 3. Open the index.html with your favorite browser
 4. Enjoy!
 
